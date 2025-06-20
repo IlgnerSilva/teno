@@ -1,0 +1,4 @@
+{
+  "extends": "@teno/tsconfig/base.json"
+}
+
