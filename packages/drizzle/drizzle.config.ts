@@ -1,8 +1,6 @@
 import { defineConfig } from 'drizzle-kit';
 import { env } from '@teno/env'
 
-console.log(env)
-
 export default defineConfig({
   out: './drizzle',
   schema: './src/db/schema.ts',
