@@ -1,0 +1,22 @@
+{
+  "name": "@teno/drizzle",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "drizzle-orm": "^0.44.2",
+    "pg": "^8.16.2",
+    "@teno/env": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.1",
+    "tsx": "^4.20.3"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

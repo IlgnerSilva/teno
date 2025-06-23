@@ -1,0 +1,20 @@
+{
+  "name": "@teno/env",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@teno/tsconfig": "workspace:*"
+  },
+  "exports": {
+    ".": "./index.ts"
+  }
+}

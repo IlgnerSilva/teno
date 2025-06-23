@@ -1,0 +1,6 @@
+{
+    "extends": "@teno/tsconfig/base.json",
+    "compilerOptions": { "strict": true },
+    "include": ["."],
+    "exclude": ["node_modules", "dist"]
+}
