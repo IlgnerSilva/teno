@@ -1,10 +1,8 @@
 {
   "name": "@teno/drizzle",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "types": "./src/index.ts",
+  "private": true,
   "scripts": {
     "db:migrate": "dotenv -e ../../.env -- drizzle-kit migrate",
     "env:load": "dotenv -e ../../.env --"
@@ -18,9 +16,7 @@
   "devDependencies": {
     "@types/pg": "^8.15.4",
     "drizzle-kit": "^0.31.1",
-    "tsx": "^4.20.3"
-  },
-  "exports": {
-    ".": "./src/index.ts"
+    "tsx": "^4.20.3",
+    "@teno/tsconfig": "workspace:*"
   }
 }

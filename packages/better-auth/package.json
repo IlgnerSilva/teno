@@ -1,17 +1,22 @@
 {
-  "name": "better-auth",
+  "name": "@teno/better-auth",
+  "type": "module",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.11.0",
   "dependencies": {
     "better-auth": "^1.2.9",
     "@teno/drizzle": "workspace:*"
+  },
+  "devDependencies": {
+    "@teno/tsconfig": "workspace:*"
+  },
+  "exports": {
+    ".": "./src/auth.ts",
+    "./client": "./src/auth-client.ts"
   }
 }

@@ -1,12 +1,13 @@
 {
   "name": "@teno/env",
+  "main": "./index.ts",
+  "types": "./index.ts",
   "type": "module",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.11.0",
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.13.8",
     "zod": "^3.25.67"
@@ -14,8 +15,5 @@
   "devDependencies": {
     "@teno/tsconfig": "workspace:*",
     "@types/node": "^24.0.3"
-  },
-  "exports": {
-    ".": "./index.ts"
   }
 }

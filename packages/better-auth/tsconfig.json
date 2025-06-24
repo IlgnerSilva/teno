@@ -1,6 +1,10 @@
 {
     "extends": "@teno/tsconfig/base.json",
-    "compilerOptions": { "strict": true },
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext"
+    },
     "include": ["."],
     "exclude": ["node_modules", "dist"]
-}
+  }
+  
